@@ -1,24 +1,24 @@
 class Dockman < Formula
   desc "Docker Compose manager with presets and shortcuts"
   homepage "https://github.com/catstackdev/dockman"
-  version "0.2.4"
+  version "0.1.0"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.2.4_Darwin_arm64.tar.gz"
+      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.1.0_Darwin_arm64.tar.gz"
       sha256 "REPLACE_WITH_ACTUAL_SHA256"
     else
-      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.2.4_Darwin_x86_64.tar.gz"
+      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.1.0_Darwin_x86_64.tar.gz"
       sha256 "REPLACE_WITH_ACTUAL_SHA256"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.2.4_Linux_arm64.tar.gz"
+      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.1.0_Linux_arm64.tar.gz"
       sha256 "REPLACE_WITH_ACTUAL_SHA256"
     else
-      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.2.4_Linux_x86_64.tar.gz"
+      url "https://github.com/catstackdev/dockman/releases/download/v0.2.4/dockman_0.1.0_Linux_x86_64.tar.gz"
       sha256 "REPLACE_WITH_ACTUAL_SHA256"
     end
   end
