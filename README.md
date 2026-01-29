@@ -1,6 +1,7 @@
 # Homebrew Tap for CatStack Tools
 
 ## Installation
+
 ```bash
 brew tap catstackdev/tap
 brew install dockman
